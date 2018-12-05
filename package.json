@@ -1,0 +1,24 @@
+{
+  "name": "02_geoquakes_lab",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essjay05/WDI-SM-62_w04-d03_GeoquakesAPI-Lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/essjay05/WDI-SM-62_w04-d03_GeoquakesAPI-Lab/issues"
+  },
+  "homepage": "https://github.com/essjay05/WDI-SM-62_w04-d03_GeoquakesAPI-Lab#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
