@@ -16,9 +16,14 @@ axios.get(weekly_quakes_endpoint)
     // This is for the coordinates
         var coords = i.geometry.coordinates;
         var latLng = new google.maps.LatLng(coords[1], coords[0]);
+        var custMark = '/images/earthquake.png';
         var marker = new google.maps.Marker({
           position: latLng,
-          map: map
+          map: map,
+          icon: {
+            url: custMark,
+            scaledSize: new google.maps.Size(20, 20)
+          }
         });
       })
     });
